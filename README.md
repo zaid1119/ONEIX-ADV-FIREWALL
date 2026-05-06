@@ -29,3 +29,15 @@ View Logs: Check firewall_activity.log for captured events.
 
 Reset: Always flush your rules when finished:
 sudo iptables -F
+
+### **System in Action**
+Below are the results of the live traffic inspection and mitigation:
+
+**1. Live ICMP Detection**
+![Ping Detection](images/1000078965.jpg)
+
+**2. Unauthorized Port 22 Mitigation**
+![SSH Block](images/1000078964.jpg)
+
+**3. Forensic Log Output**
+![Firewall Logs](images/1000078963.jpg)
